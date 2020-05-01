@@ -26,7 +26,7 @@ fs.createReadStream(filepath)
     .on('data', (row) => {
         // use row data
         try {
-            let name = row['name'];
+            let name = row.name;
             let sprite = JSON.parse(row.sprites).animated;      
             if (name) {
                 let rowAppend = `<img src="${sprite}" width="100px;" alt="${name}"/><br /><sub><b>${name}</b></sub> | `;
