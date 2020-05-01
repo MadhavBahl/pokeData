@@ -29,7 +29,7 @@ fs.createReadStream(filepath)
             let name = row.name;
             let sprite = JSON.parse(row.sprites).animated;      
             if (name) {
-                let rowAppend = `<img src="${sprite}" width="100px;" alt="${name}"/><br /><sub><b>${name}</b></sub> | `;
+                let rowAppend = `[<img src="${sprite}" width="100px;" alt="${name}"/><br /><sub><b>${name}</b></sub>](#) | `;
                 readmeContent += rowAppend;
             }
         } catch (error) {
