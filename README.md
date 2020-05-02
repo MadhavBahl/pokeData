@@ -8,6 +8,11 @@ Learning to write CSV file with NodeJS by making our own Pokemon Dataset.
 
 ![cover](./cover.png)
 
+## Special Thanks
+
+1. [Pokemon npm package](https://www.npmjs.com/package/pokemon)
+2. [Pokedex npm package](https://www.npmjs.com/package/pokedex)
+
 ## Pokemon List
 
 | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif" width="100px;" alt="bulbasaur"/><br /><sub><b>bulbasaur</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif" width="100px;" alt="ivysaur"/><br /><sub><b>ivysaur</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif" width="100px;" alt="venusaur"/><br /><sub><b>venusaur</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif" width="100px;" alt="charmander"/><br /><sub><b>charmander</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif" width="100px;" alt="charmeleon"/><br /><sub><b>charmeleon</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif" width="100px;" alt="charizard"/><br /><sub><b>charizard</b></sub>](#) | [<img src="http://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif" width="100px;" alt="squirtle"/><br /><sub><b>squirtle</b></sub>](#) | 
