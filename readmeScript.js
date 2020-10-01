@@ -18,11 +18,17 @@ Learning to write CSV file with NodeJS by making our own Pokemon Dataset.
 
 | `;
 
+//The function fs.createReadStream() allows you to open up a readable stream in a very simple manner.
+
+// This line opens the file as a readable stream.
 fs.createReadStream(filepath)
+
+// This catches any errors that happen while creating the readable stream (usually invalid names)
     .on('error', () => {
         // handle error
     })
 
+// pipe(), the method used to take a readable stream and connect it to a writeable steam.
     .pipe(csvParser())
     .on('data', (row) => {
         // use row data
